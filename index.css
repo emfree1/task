@@ -1,0 +1,84 @@
+body {
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center
+}
+
+body input {
+  width: 300px;
+  margin: 40px 0;
+}
+
+.MainTable {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.MainTableWrapper {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.id, .idBtn {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid black;
+}
+
+.name, .nameBtn  {
+  width: 35%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid black;
+  cursor: pointer;
+}
+
+.email, .emailBtn {
+  width: 45%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email.green {
+  border: 1px solid #1dce05
+}
+
+.idBtn i,
+.nameBtn i,
+.emailBtn i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.people {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.peopleWrapper {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.peopleWrapper.show {
+  display: flex;
+}
+.peopleWrapper.hide {
+  display: none;
+}
